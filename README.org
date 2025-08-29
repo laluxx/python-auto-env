@@ -1,0 +1,16 @@
+#+TITLE: Python-auto-env
+#+AUTHOR: Laluxx
+
+#+begin_src shell
+mkdir ~/.config/emacs/lisp
+cd ~/.config/emacs/lisp
+git clone https://github.com/lalux/python-auto-env
+#+end_src>
+
+#+begin_src emacs-lisp
+
+(use-package python-auto-env
+  :load-path "~/.config/emacs/lisp/python-auto-env"
+  :config (0x0-view-mode))
+
+#+end_src>
