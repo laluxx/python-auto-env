@@ -11,6 +11,6 @@ git clone https://github.com/lalux/python-auto-env
 
 (use-package python-auto-env
   :load-path "~/.config/emacs/lisp/python-auto-env"
-  :config (0x0-view-mode))
+  :config (python-auto-env-global-mode 1))
 
 #+end_src>
